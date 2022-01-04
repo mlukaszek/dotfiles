@@ -1,0 +1,7 @@
+[user]
+	name = Michal Lukaszek
+	email = mlukaszek@gmail.com
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
