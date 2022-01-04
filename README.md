@@ -20,6 +20,7 @@ brew install neofetch
 brew install tig
 brew install antibody
 brew install stow
+brew install bat
 ```
 
 Install fonts
