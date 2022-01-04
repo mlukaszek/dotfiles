@@ -21,6 +21,7 @@ brew install tig
 brew install antibody
 brew install stow
 brew install bat
+brew install neovim
 ```
 
 Install fonts
