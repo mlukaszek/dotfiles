@@ -12,6 +12,7 @@ alias vim=nvim
 alias cat="bat --theme=gruvbox-dark"
 
 # Plugins
+[ ! -f "~/.zsh_plugins.sh" ] && antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
 source ~/.zsh_plugins.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
