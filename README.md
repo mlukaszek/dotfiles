@@ -22,6 +22,7 @@ brew install antibody
 brew install stow
 brew install bat
 brew install neovim
+brew install lima
 ```
 
 Install fonts
