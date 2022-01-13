@@ -23,6 +23,7 @@ brew install stow
 brew install bat
 brew install neovim
 brew install lima
+brew install ripgrep
 ```
 
 Install fonts
