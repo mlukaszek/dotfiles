@@ -18,6 +18,12 @@ vim.g.maplocalleader = " "
 --   term_mode = "t",
 --   command_mode = "c",
 
+keymap("", "§", "<Esc>", opts)
+keymap("i", "§", "<Esc>", opts)
+keymap("v", "§", "<Esc>", opts)
+keymap("x", "§", "<Esc>", opts)
+keymap("c", "§", "<Esc>", opts)
+
 -- Normal --
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
