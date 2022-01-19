@@ -24,6 +24,7 @@ brew install bat
 brew install neovim
 brew install lima
 brew install ripgrep
+brew install fzf
 ```
 
 Install fonts
