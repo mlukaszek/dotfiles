@@ -1,2 +1,4 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
-export PATH=$PATH:/Applications/CMake.app/Contents/bin
+BREW="$(brew --prefix 2>/dev/null)"
+
+[ -n "$BREW" ] && eval "$($BREW/bin/brew shellenv)"
+[ -d "/Applications" ] && export PATH=$PATH:/Applications/CMake.app/Contents/bin
