@@ -53,4 +53,5 @@ Install packages
 ```
 sudo apt install -y zsh stow neofetch tmux bat fzf ripgrep
 curl -sfL git.io/antibody | sudo sh -s - -b /usr/local/bin
+sudo snap install nvim --classic
 ```
