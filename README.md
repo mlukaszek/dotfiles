@@ -45,3 +45,12 @@ mkdir -p ${ZDOTDIR:-~}/.zsh_functions
 grep -q zsh_functions ${ZDOTDIR:-~}/.zshrc || echo 'fpath+=${ZDOTDIR:-~}/.zsh_functions' >> ${ZDOTDIR:-~}/.zshrc
 cp /tmp/alacritty/extra/completions/_alacritty ${ZDOTDIR:-~}/.zsh_functions/_alacritty
 ```
+
+# Raspberry Pi
+Running Raspberry Pi OS (Debian-based).
+
+Install packages
+```
+sudo apt install -y zsh stow neofetch tmux bat fzf ripgrep
+curl -sfL git.io/antibody | sudo sh -s - -b /usr/local/bin
+```
