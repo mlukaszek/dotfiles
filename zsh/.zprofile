@@ -1,4 +1,10 @@
-BREW="$(brew --prefix 2>/dev/null)"
+if [[ $(uname -s) = "Darwin" ]]; then
+  if [[ $(uname -p) = "arm" ]]; then
+    BREW=/opt/homebrew
+  elif [[ $(uname -p) = "i386" ]]; then
+    BREW=/usr/local
+  fi
+fi
 
-[ -n "$BREW" ] && eval "$($BREW/bin/brew shellenv)"
+[ -d "$BREW" ] && eval "$($BREW/bin/brew shellenv)"
 [ -d "/Applications" ] && export PATH=$PATH:/Applications/CMake.app/Contents/bin
